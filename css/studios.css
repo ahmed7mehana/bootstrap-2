@@ -1,32 +1,13 @@
 .land{height: 40rem;}
-.land .bg{width: 100%; position: absolute;} 
+.land .bg{width: 100%; position: absolute;   height: fit-content;} 
   p{font-family: 'Josefin Sans', sans-serif;}
 .land .text p{
-  border: 1px solid seashell;
-  max-width: 350px;
-  letter-spacing: 4.2px;
-  text-transform: uppercase;
-  margin-top: 10rem;}
+  border: 1px solid seashell;  max-width: 350px;  letter-spacing: 4.2px; text-transform: uppercase; margin-top: 10rem; position:absolute;}
 .section-t .content .image { max-width: 600px;}
 .section-t .content .image img {width: 600px;}
-.section-t .content .text{
-    background: white;
-    padding: 10px;
-    margin-top: 100px;
-    margin-left: -201px;
-    background: white;}
+.section-t .content .text{  background: white;  padding: 10px;  margin-top: 100px;  margin-left: -201px;  background: white;}
 @media(max-width: 1000px) {.section-t .content .text{margin: auto;}}
-.section-t .content .text h2{
-  max-width: 350px;
-  letter-spacing: 4.2px;
-  text-transform: uppercase;
-  padding: 1rem;
-  font-family: 'Josefin Sans', sans-serif;}
+.section-t .content .text h2{  max-width: 350px;  letter-spacing: 4.2px;  text-transform: uppercase;  padding: 1rem;  font-family: 'Josefin Sans', sans-serif;}
 .section-t .content .text p{max-width: 600px;}
-.cards h1{
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  width: fit-content;
-  position: relative;
-  top: -110px;}
+.cards h1{  text-align: center;  font-family: 'Josefin Sans', sans-serif;  width: fit-content;  position: relative;  top: -110px;}
 .attribution a { color: hsl(228, 45%, 44%); }
